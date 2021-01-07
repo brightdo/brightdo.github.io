@@ -1,0 +1,386 @@
+.aboutMe{
+    background-color: #5569DC;
+    display: table;
+    width: 100%;
+}
+.myImage{
+    height: 40%;
+    border-radius: 50%;
+    max-width: 90%;
+    margin-top: 5%;
+    width: 41%;
+}
+.greeting{
+    color: white;
+    margin-bottom: 7%;
+    margin-left: 7%;
+}
+.background{
+    width: 100%;
+}
+.sections{
+    text-align: center;    
+    background-color: #5569DC;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section{
+    margin-top: 1rem;
+    color: white;
+    display: inline-block;
+    font-size: larger;
+    padding: 0 10px;
+    margin-bottom: 1rem;
+}
+.navbar-brand{
+    position: relative;
+    display: block;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+#brandimage{
+    height:100px
+  }
+.icon-container{
+    text-align: left;
+}
+.navbar-container{
+    text-align: center;
+    margin-left: 11%;
+    display: inline-block;
+    float: right;
+}
+.characteristic{
+    height: 42%;
+    border-radius: 50%;
+    max-width: 90%;
+    margin-top: 9%;
+    width: 50%;
+}
+.messenger{
+    background-color: #007FFF;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: white;
+    width: 25%;
+}
+.email{
+    background-color: #B13020;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: white;
+    width: 25%;
+}
+.introduction{
+    color: white;
+    font-size: 27px;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+
+#aboutFir{
+    display: table-cell;
+    padding: 16px;
+    background-image: url(assets/img/programmer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 100%;
+    vertical-align: bottom;
+}
+.resume{
+    background-color: white;
+    border: none;
+    color: #5569DC;
+    padding: 14px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#aboutSec{
+    display: table-cell;
+    padding: 16px;
+    width: 40%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.top-contact-sec{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.top-navigation-bar{
+    float: right !important;
+}
+.nav > li > a{
+    position: relative;
+    display: block;
+    }
+.nav > li{
+    float: left;
+    display: inline;
+}
+
+a[class*="smoothScroll"]{
+        padding-right: 2vw;
+      }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none !important;
+}
+ul.nav.navbar-nav {
+    font-family: sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 3%;
+    padding-right: 5%;
+    float: right;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    }
+    ul {
+        display: inline-block;
+    }
+#about{
+background-color: #EEF0FB;
+text-align: left;
+padding-bottom:5%;
+}
+#container-about{
+    width: 45%;
+    margin-left: 22%;
+    padding-top: 6%;
+}
+#ENE{
+display: table;
+width: 100%;
+}
+#education{
+    display: table-cell;
+    width: 50%;
+}
+#container-education{
+    color: #5569DC;
+    margin-top: 11%;
+    margin-left: 45%;
+}
+#description-education{
+    color: #1C2349;
+    font-size: 16px;
+    margin-top: 8%;
+}
+#Experience{
+    display: table-cell;
+    text-align: left;
+    width: 50%;
+}
+#description-experience{
+    color: #1C2349;
+    font-size: 16px;
+    margin-top: 8%;
+}
+#container-Experience{
+    color: #5569DC;
+    margin-top: 12%; 
+    margin-left: 10%;
+}
+#skills{
+    margin-bottom:5%;
+    text-align: left;
+}
+#container-skills{
+    width: 45%;
+    margin-left: 22%;
+    padding-top: 6%;
+}
+#contacts{
+    height: 300px;
+    background-color: #1C2349;
+    text-align: left;
+}
+#container-contancts {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2%;
+}
+#icon{
+    height: 50px; 
+    width: 50%; 
+    margin-top: 7%; 
+    display: block; 
+    margin-left: 33%; 
+    margin-bottom: 7%;
+}
+#section{
+    width: 20%;
+    display: table-cell;
+    height: 150px;
+    text-align: center;
+    font-size: large;
+}
+#icons-table{
+    display: table;
+    width: 80%;
+}
+.text{
+    margin-top: 40%;
+}
+.gitHub:hover{
+    background-color: #1a1a1a;
+}
+.resume:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 21% !important;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  /* for skills and experience tab */
+  .bar{
+    background-color: #EEE;
+    padding: 2px;
+    width: 70%;
+    height: 0%;
+    margin-left: 20%;
+    display: inline-block;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    font-size: 3px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content: attr(data-skill);
+    background-color: #5569DC;
+    display: inline-block;
+    height: 0%;
+    padding: 0.01px 0 2px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color: #5569DC;
+  }
+  .bar.back::before{
+    background-color: #5569DC;
+  }
+  
+  .bar.learning::before{
+    width: calc(20% - 10px);
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(60% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(80% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(100% - 10px);
+  }
+  
+    .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 55%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  
+  /* Style all font awesome icons */

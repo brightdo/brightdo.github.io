@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  .nyu{
+    background-image: url(assets/img/nyu.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #610397;
+  }
+  .sjsu{
+    background-image: url(assets/img/sjsu.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #1074CA;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -7px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -9px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+.specialty{
+    display:inline-block;
+    width: 49%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: right;
+  height: 1.5em;
+  opacity: 1;
+}
+  .hr-text:before {
+    content: '';
+    /* // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar */
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+  }
+  .hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* // this is really the only tricky part, you need to specify the background color of the container element... */
+    background-color: #fcfcfa;
+  }
+
+  #brandimage{
+    margin-left: 5%;
+    margin-top: 1%;
+    height:100px
+  }
+  .nav > li > a{
+    position: relative;
+    display: block;
+    }
+    ul.nav.navbar-nav {
+      padding-top: 1%;
+      padding-right: 5%;
+      float: right !important;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+    .li-nav{
+      float: left;
+      display: inline;
+    }
+    
+    a:link {
+      text-decoration: none;
+      color: black
+    }
+    
+    a:visited {
+      text-decoration: none;
+      color: black
+    }
+    
+    a:hover {
+      text-decoration: none;
+      color: black
+    }
+    
+    a:active {
+      text-decoration: none;
+      color: black
+    }
+    /* ul{
+      display: inline-block
+    } */
+    a[class*="smoothScroll"]{
+      padding-right: 2vw;
+    }
+@media screen and (max-width: 600px) {
+
+.timeline{
+    font-size: 
+}
+
+}
+
