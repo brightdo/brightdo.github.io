@@ -201,11 +201,18 @@
     a[class*="smoothScroll"]{
       padding-right: 2vw;
     }
-@media screen and (max-width: 600px) {
-
-.timeline{
-    font-size: 
-}
-
-}
+    @media only screen and (max-width: 800px) {
+      .specialty{
+        display: none;
+      }
+      .container{
+        width: 100%;
+      }
+      .right{
+        left: 0;
+      }
+      .timeline::after{
+        display: none;
+      }
+    }
 

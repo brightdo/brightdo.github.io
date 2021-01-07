@@ -208,7 +208,7 @@ width: 100%;
 }
 #container-skills{
     width: 45%;
-    margin-left: 22%;
+    margin-left: 21%;
     padding-top: 6%;
 }
 #contacts{
@@ -255,7 +255,7 @@ width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: 21% !important;
+    margin-left: 21% ;
   }
   @keyframes load{
     from {
@@ -383,4 +383,23 @@ width: 100%;
     to {opacity:1 ;}
   }
   
+  @media only screen and (max-width: 1440px) {
+
+    .bar{
+      margin-left: 10%;
+    }
+    #container-skills{
+      margin-left: 15%;
+    }
+    #container-Experience{
+      margin-left: 0%;
+    }
+    #container-education{
+      margin-left: 30%;
+    }
+    #container-about{
+      margin-left: 15%;
+    }
+  }
+
   /* Style all font awesome icons */
