@@ -1,3 +1,4 @@
+
 .flex {
   display: flex;
   justify-content: center;
@@ -126,14 +127,12 @@ div[class*="nav-"]{
 }
 
 .image{
-  /* background-image: url('assets/img/classes.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 80%;
   z-index: 1;
 }
-
 
 @media only screen and (max-width: 450px) {
   .headerwrap p{

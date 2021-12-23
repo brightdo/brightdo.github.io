@@ -26,10 +26,10 @@ document.getElementById('nav-JetSweat').onmouseover = function(){
     document.getElementById("image").style.backgroundImage = "url('assets/img/jetsweat.jpg')" 
     hideText("hidden");
 };
-document.getElementById('nav-JetSweat').onmouseleave = function(){
-    document.getElementById("image").style.backgroundImage = 'none'; 
-    hideText("visible");
-};
+// document.getElementById('nav-JetSweat').onmouseleave = function(){
+//     document.getElementById("image").style.backgroundImage = 'none'; 
+//     hideText("visible");
+// };
 
 
 function hideText(visible){
